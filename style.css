@@ -30,8 +30,11 @@ body {
 
 .contact {
     background: dimgrey;
+    color: white;
     text-align: center;
-    max-height: 100px;
+    font-size:13px;
+    padding: 0px;
+    max-height: 30px;
     max-width: 350px;
     margin-left: auto;
 }
