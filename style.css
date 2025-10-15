@@ -1,5 +1,11 @@
+@font-face {
+    font-family: simplex;
+    src: url('fonts/simplex.otf');
+}
+
 body {
     background-color: #c5c5c5;
+    font-family: simplex;
     color: black;
     min-width: 380px;
     width:67%;
@@ -23,7 +29,8 @@ body {
 
 .mainsect {
     background: #c5c5c5;
-    font-size: 16px;
+    font-family: simplex;
+    font-size: 20px;
     text-align: justify;
     padding: 5px;
     margin-left: auto;
@@ -32,7 +39,8 @@ body {
 
 .figcapt {
     background: #c5c5c5;
-    font-size: 14px;
+    font-family: simplex;
+    font-size: 18px;
     text-align: justify;
     padding: 10px;
     margin-top: -25px;
@@ -42,16 +50,18 @@ body {
 
 .contact {
     background: dimgrey;
+    font-family: simplex;
     color: white;
     text-align: center;
-    font-size:13px;
+    font-size:16px;
     padding: 0px;
-    max-height: 35px;
+    max-height: 45px;
     max-width: 350px;
     margin-left: auto;
 }
 
 a:link {
+    font-family: simplex;
     color: white;
     text-decoration: none;
 }
